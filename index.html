@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header with Language Switch</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+
+    <header data-aos="fade-down" data-aos-duration="2000">
+         <div class="logo">
+             <img src="images/logo.png">
+         </div>
+
+         <nav>
+             <ul>
+                 <li><a href="#" data-lang="about">About</a></li>
+                 <li><a href="#" data-lang="tours">Tours</a></li>
+                 <li><a href="#" data-lang="gallery">Gallery</a></li>
+                 <li><a href="#" data-lang="contact">Contact</a></li>
+             </ul>
+         </nav>
+
+         <div class="right-menu">
+             <i class="ri-search-eye-line"></i>
+             <a href="#" data-lang="signin">Sign in</a>
+
+             <div class="dropdown">
+                 <button class="dropbtn">English<i class="ri-arrow-down-s-fill"></i></button>
+
+                 <div class="dropdown-content">
+                     <a href="#" data-lang="en">English</a>
+                     <a href="#" data-lang="es">Espanol</a>
+                     <a href="#" data-lang="fr">Francais</a>
+                 </div>
+             </div>
+         </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <p data-aos="zoom-in-down"data-aos-duration="2500">Online tour store</p>
+            <h1 data-aos="zoom-in"data-aos-duration="3000">Tripnest</h1>
+            <p data-aos="fade-up"data-aos-duration="2800">Direct prices from tour operators</p>
+            <button class="button" data-aos="zoom-out"data-aos-duration="2000">How to buy a Tour?</button>
+            <div class="search-container" data-aos="fade-up"data-aos-duration="2200">
+                <div class="search-item">
+                    <i class="ri-map-pin-line"></i>
+                    <input type="text" placeholder="Location">
+                </div>
+
+                <div class="search-item">
+                    <i class="ri-send-plane-fill"></i>
+                    <input type="text" placeholder="Destination">
+                </div>
+
+                <div class="search-item">
+                    <i class="ri-calendar-line"></i>
+                    <input type="text" placeholder="Departure Date">
+                </div>
+
+                <div class="search-item">
+                    <i class="ri-group-line"></i>
+                    <input type="text" placeholder="Travelers">
+                </div>
+
+                <button class="search-btn">Find Tours</button>
+            </div>
+        </div>
+    </section>
+
+    
+    <div class="logo-section">
+        <button class="logo-button">Tour operator rating</button>
+        <div class="logo-slider">
+            <img src="images/logo1.png">
+            <img src="images/logo2.png">
+            <img src="images/logo3.png">
+            <img src="images/logo4.png">
+            <img src="images/logo5.png">
+            <img src="images/logo6.png">
+
+            <img src="images/logo1.png">
+            <img src="images/logo2.png">
+            <img src="images/logo3.png">
+            <img src="images/logo4.png">
+            <img src="images/logo5.png">
+            <img src="images/logo6.png">
+        </div>
+    </div>
+
+
+ 
+ 
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset:1
+      });
+    </script>
+</body>
+</html>
